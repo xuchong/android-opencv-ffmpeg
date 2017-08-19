@@ -39,7 +39,10 @@ If videocapture is opened. Then screen gets success info. Otherwise, screen gets
 other task  just as simple opencv(without ffmpeg) for android.
 
 ## After All, Libraries you need to get.
-[Libraries]()
+[Libraries](https://raw.githubusercontent.com/xuchong/android-opencv-ffmpeg/master/doc/libraries.png)
+
+## Success Result Screenshot
+[Success](https://raw.githubusercontent.com/xuchong/android-opencv-ffmpeg/master/doc/success.png)
 
 
 
