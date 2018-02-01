@@ -51,11 +51,10 @@ other task  just as simple opencv(without ffmpeg) for android.
 
 
 
-###License
+### License
 
 -----
 
 [MIT License](https://github.com/xuchong/android-opencv-ffmpeg/blob/master/LICENSE)
 
-###  
 
