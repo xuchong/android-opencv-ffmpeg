@@ -23,15 +23,14 @@ Learning step by step.
 
 3. Compile ffmpeg for android.
 > I offer my uncleaned bash in the project.It can build dynamic libraries for android arch x86 and arm, you can modify for other versions.
-Put them in ffmpeg source project. Just change its path carefully. Be patient, guys!
+> Put them in ffmpeg source project. Just change its path carefully. Be patient, guys!
 
 4. Last but not least,  opencv with ffmpeg.
 
-> You need re-compiling your opencv with ffmpeg. Are you kidding me? I'm not. Seriously, above steps are just preparations,
-> you need cd to your opencv source dir. For offical opencv doesn't support android with ffmpeg, you can just get opencv without 
-> ffmpeg from that. 
-First, modify root CMakeLists.txt in opencv source project to let it support android with ffmpeg.
-Second, modify OpenCVFindLibsVideo.cmake in __cmake__ directory.Samely, for support android with ffmpeg.
+> You need re-compiling your opencv with ffmpeg. Are you kidding me? I'm not. Seriously, above steps are just preparations, you need cd to your opencv source dir. For offical opencv doesn't support android with ffmpeg, you can just get opencv without ffmpeg from that. First, modify root CMakeLists.txt in opencv source project to let it support android with ffmpeg.Second, modify OpenCVFindLibsVideo.cmake in __cmake__ directory.Samely, for support android with ffmpeg.
+
+__Notice__: As to how to modify the cmake files, please refer to [Issues 2](https://github.com/xuchong/android-opencv-ffmpeg/issues/2).  Wish it can help you.
+
 Finally, recompile your opencv. It supports ffmepg now. Enjoy yourself.
 
 ## My Test for using opencv with ffmpeg
@@ -44,5 +43,19 @@ other task  just as simple opencv(without ffmpeg) for android.
 ## Success Result Screenshot
 ![Success](https://raw.githubusercontent.com/xuchong/android-opencv-ffmpeg/master/doc/success.png)
 
+###  About Me
 
+------
+
+* [Blog](xuchong.github.io/)
+
+
+
+###License
+
+-----
+
+[MIT License](https://github.com/xuchong/android-opencv-ffmpeg/blob/master/LICENSE)
+
+###  
 
