@@ -47,7 +47,7 @@ other task  just as simple opencv(without ffmpeg) for android.
 
 ------
 
-* [Blog](xuchong.github.io/)
+* [Blog](https://xuchong.github.io/)
 
 
 
